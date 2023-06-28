@@ -1,1 +1,1 @@
-# Regression problem in insurance.
+# Regression problem on the insurance data set.
