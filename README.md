@@ -1,1 +1,6 @@
 # Regression problem on the insurance data set.
+The objective is to predict the most accurate estimate of a customer's lifetime value, which is a key metric in determining their long-term profitability. To achieve this, feature selection methods should be applied to identify the most influential variables that impact CLTV. This process involves examining a range of potential features, evaluating their relevance, and selecting the most informative ones.
+
+Once the relevant features have been determined, regression modeling techniques, particularly the gradient boost algorithm, can be utilized to build a predictive model. Gradient boosting is an ensemble learning method that combines multiple weak predictive models to create a stronger and more accurate model. By iteratively optimizing the model's performance through the minimization of errors, gradient boost enhances the precision of CLTV predictions.
+
+The ultimate goal is to obtain the highest R2 score possible, which indicates the proportion of the variance in CLTV that can be explained by the model. A high R2 score signifies a better fit between the predicted and actual CLTV values, providing valuable insights into customer behavior and profitability.
